@@ -1,0 +1,22 @@
+# Setup
+title:               정리, 기록
+tagline:             ' namuhuchutong'
+description:         'Categories'
+url:                 https://namuhuchutong.github.io/
+baseurl:             ''
+paginate:            5
+permalink:           none 
+
+# About/contact
+author:
+  name:              Hoyeon
+  url:               
+  email:             namuhuchutong@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

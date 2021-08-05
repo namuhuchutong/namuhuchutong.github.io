@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% for category in site.categories %}
+    <ul>
+        <li>
+        <h2 class="post-title">{{ category | first }}</h2>
+        </li>
+    </ul>
+{% endfor %}
